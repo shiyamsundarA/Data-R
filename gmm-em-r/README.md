@@ -1,4 +1,4 @@
-# Vectorized EM Algorithm for Gaussian Mixture Models (from scratch, R)
+# Vectorized EM Algorithm for Gaussian Mixture Models (GMM)
 
 A from-scratch, fully vectorized implementation of the Expectation-Maximization
 (EM) algorithm for Gaussian Mixture Models (GMMs) in base R.
