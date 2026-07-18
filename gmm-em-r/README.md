@@ -96,23 +96,6 @@ The synthetic demo writes two plots to `output/`:
 - `loglik_convergence.png` — log-likelihood vs. iteration
 - `gmm_clusters.png` — final clustering with estimated Gaussian contours
 
-## Uploading this to GitHub
-
-From inside the `gmm-em-r/` folder:
-
-```bash
-git init
-git add .
-git commit -m "Vectorized EM for Gaussian Mixture Models, from scratch"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<your-repo-name>.git
-git push -u origin main
-```
-
-(Create the empty repo on github.com first, or use `gh repo create` if you
-have the GitHub CLI installed.)
-
-## Requirements
 
 Base R only (tested on R 4.3). No external packages are required to run
 `R/gmm_em.R` itself.
